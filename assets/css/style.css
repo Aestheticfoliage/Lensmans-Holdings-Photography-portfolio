@@ -1,20 +1,18 @@
 *body {
     background-color: aquamarine;
-    font-family: cursive;
-    font-weight: bolder;
 }
 
 
 .main {
-    display: flex; 
+    align-items: float-right;
     width:100px;
     height: 200px;
     color: brown;
     margin:10px; 
     padding: 2px; 
 }
-#container { 
-    flex:100% ;
+.container { 
+    flex:50% ;
     background-color: aquamarine;
     color:darkred
 }
@@ -29,15 +27,12 @@ h2{
     color: olive;
 
 }
-.div{
+#image{
     display: flex;
-    height: 300px;
-    width: 100px;
-    height: 100px;
-    color: rgb(31, 110, 31); 
-    margin: 5,10;
-    padding-right: 10px;
+    width: 178px;
+    height: 252px;
 }
+
 
 #setdec{
     display: flexbox;
@@ -49,10 +44,11 @@ h2{
     box-sizing: 75, 100;
 }
 #greens {
-    display: flexbox;
+    display: float-right;
     text-align: right;
     font-family: fantasy;
     background-color: black;
+    width: 50%;
     color: aquamarine;
     padding: 5,10;
     border-radius: 5px;
