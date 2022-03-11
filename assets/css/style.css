@@ -1,70 +1,62 @@
 *body {
-    background-color: aquamarine;
+  background-color: aquamarine;
+}
+header {
+  height: fit-content;
+  width: auto;
+  box-shadow: 3px;
+  box-sizing: content-box;
+  font-size: larger;
+  font-weight: bold;
 }
 
-
-.main {
-    align-items: float-right;
-    width:100px;
-    height: 200px;
-    color: brown;
-    margin:10px; 
-    padding: 2px; 
-}
-.container { 
-    flex:50% ;
-    background-color: aquamarine;
-    color:darkred
-}
 .section {
-    width: 50%;
-    height: 50%;
-    columns: inherit;
+  flex-direction: row-reverse;
+  width: 100px;
+  height: 200px;
+  color: brown;
+  margin: 10px;
+  padding: 2px;
 }
-h2{
-    display: inline-block;
-    font-style: italic;
-    color: olive;
-
+.container {
+  flex: 50%;
+  background-color: aquamarine;
+  color: darkred;
 }
-#image{
-    display: flex;
-    width: 178px;
-    height: 252px;
+section {
+  width: 50%;
+  height: 50%;
+  columns: inherit;
+}
+h2 {
+  display: inline-block;
+  font-style: italic;
+  color: olive;
 }
 
-
-#setdec{
-    display: flexbox;
-    text-align-last: left;
-    font-family: cursive;
-    background-color: darkblue;
-    color: green;
-    border-radius: 5px%;
-    box-sizing: 75, 100;
+#setdec {
+  display: flexbox;
+  text-align-last: left;
+  font-family: cursive;
+  background-color: darkblue;
+  color: green;
+  border-radius: 5px%;
+  box-sizing: 75, 100;
 }
 #greens {
-    display: float-right;
-    text-align: right;
-    font-family: fantasy;
-    background-color: black;
-    width: 50%;
-    color: aquamarine;
-    padding: 5,10;
-    border-radius: 5px;
-    border: 5px;
-}
-
-
-.side{ 
-    border-right: 5px solid blueviolet;
-    padding :10px ; 
-    height: 300px; 
-
+  display: float-right;
+  text-align: right;
+  font-family: fantasy;
+  background-color: black;
+  width: 50%;
+  color: aquamarine;
+  padding: 5, 10;
+  border-radius: 5px;
+  border: 5px;
 }
 .footer {
-    display: inline-flex;
-    height: fit-content;
-    width: auto;
-    background-color: blueviolet;
+  display: inline-flex;
+  height: fit-content;
+  width: auto;
+  background-color: blueviolet;
 }
