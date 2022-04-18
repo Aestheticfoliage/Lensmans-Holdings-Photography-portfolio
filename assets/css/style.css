@@ -8,8 +8,8 @@
 * {
   background-color: var(--light);
 }
-body {
-  flex-direction: column;
+.container{
+  display: flex;
 }
 #banner {
   display: inline;
@@ -48,7 +48,10 @@ a:focus {
 a:active {
   color: yellow;
 }
-
+#container {
+  color: #1c310b;
+  
+}
 .main .section .image {
   background-color: (var(--dark));
   display: block;
