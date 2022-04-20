@@ -1,29 +1,37 @@
 :root {
   --blue:#DDA15E;
   --green: #606C38;
-  --brown: #BC6C25
+  --brown: #BC6C25;
   --light: #FEFAE0;
   --dark: #283618;
 }
 * {
   background-color: var(--light);
 }
-<<<<<<< HEAD
 body {
   background-color: #606C38;
 
-=======
-.container{
-  display: flex;
->>>>>>> cbbf4861deee82e871cac857a09412a992d8904c
 }
-#banner {
-  justify-content: center;
+.hero{
+  align-items: stretch;
+}
+header {
+  justify-content: space-evenly;
   font-size: x-large;
   border-color: var(--blue);
 }
+#container{
+  display:inline-flexbox;
+}
+.photo{
+  padding: auto;
+  max-width: max-content;
+}
 #box{
-  display: table-column-group;
+  display: inline-block;
+  width: 50%;
+  justify-content: flex-start;
+  background-color: #606C38;
   padding: 20px;
   justify-items: center;
   border-style:dashed;
@@ -35,64 +43,17 @@ body {
   background-color: aqua;
   box-shadow: #606C38;
 }
-<<<<<<< HEAD
 .greens{
-=======
-
-.nav a:link {
-  color: blue;
-}
-a:visited {
-  color: purple;
-}
-a:hover {
-  color: red;
-}
-a:focus {
-  outline: 1px solid blue;
-}
-a:active {
-  color: yellow;
-}
-#container {
-  color: #1c310b;
-  
-}
-.main .section .image {
-  background-color: (var(--dark));
-  display: block;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 80%;
-  height: 75%;
-  color: (var(--light));
-  margin: 10px;
-  padding: 2px;
-}
-.hero {
-  padding: 10px;
-  margin: 5px;
-  height: 40px;
-  width: 40px;
-  box-shadow: #235f06;
-}
-image {
-  height: 200;
-  width: 140;
-}
-article {
-  display: block;
-  justify-content: end;
-  background-color: var(--light);
-}
-.main {
-  flex: column;
->>>>>>> cbbf4861deee82e871cac857a09412a992d8904c
   flex-wrap: wrap;
   padding: 20px;
   margin: 20px;
   border-style: double;
   box-shadow: #283618;
-}
+}@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  
 
 
