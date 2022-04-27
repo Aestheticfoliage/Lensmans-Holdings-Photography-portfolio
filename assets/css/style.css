@@ -5,17 +5,10 @@
   --light: #FEFAE0;
   --dark: #283618;
 }
-<<<<<<< HEAD
-=======
-* {
-  background-color: var(--light);
-}
->>>>>>> cbfc6253e678af210d98817f5e3c365fe0502705
 body {
   background-color: #606C38;
 
 }
-<<<<<<< HEAD
 #banner {
 
   font-size: x-large;
@@ -34,51 +27,6 @@ font-style: italic;
 margin: 20px;
 
 }
-=======
-.hero{
-  align-items: stretch;
-}
-header {
-  justify-content: space-evenly;
-  font-size: x-large;
-  border-color: var(--blue);
-}
-#container{
-  display:inline-flexbox;
-}
-.photo{
-  padding: auto;
-  max-width: max-content;
-}
-#box{
-  display: inline-block;
-  width: 50%;
-  justify-content: flex-start;
-  background-color: #606C38;
-  padding: 20px;
-  justify-items: center;
-  border-style:dashed;
-  box-shadow: #DDA15E;
-}
-.setDec{
-  display: contents;
-  justify-content: first baseline;
-  background-color: aqua;
-  box-shadow: #606C38;
-}
-.greens{
-  flex-wrap: wrap;
-  padding: 20px;
-  margin: 20px;
-  border-style: double;
-  box-shadow: #283618;
-}@media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
-  main,
-  nav {
-    flex-direction: column;
-  
->>>>>>> cbfc6253e678af210d98817f5e3c365fe0502705
 
 
 
