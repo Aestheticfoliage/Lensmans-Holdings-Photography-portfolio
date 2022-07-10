@@ -21,9 +21,10 @@ header {
   border-color: var(--blue);
 }
 #container{
-  display:inline-flexbox;
+  width: max-content;
+  display: flex;
 }
-.photo{
+.avatar{
   padding: auto;
   max-width: max-content;
 }
@@ -39,7 +40,7 @@ header {
 }
 .setDec{
   display: contents;
-  justify-content: first baseline;
+  justify-content: left;
   background-color: aqua;
   box-shadow: #606C38;
 }
@@ -51,9 +52,8 @@ header {
   box-shadow: #283618;
 }@media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
-  main,
-  nav {
+  #box {
     flex-direction: column;
   
 
-
+  }
