@@ -9,10 +9,18 @@ body {
   background-color: #606C38;
 
 }
+nav{
+  width: min-content;
+  background-color: var(--light);
+
+}
 #banner {
 
   font-size: x-large;
   border-color: var(--blue);
+}
+#header{
+  background-color: var(--light);
 }
 .container{
   display: grid;

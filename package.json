@@ -1,0 +1,23 @@
+{
+  "name": "lensmans-holdings-photography-portfolio",
+  "version": "1.0.0",
+  "description": "An attempt at a professional career up to this point, through an explanation of the different skills and various jobs within a highly competitive industry.\r ## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio/issues"
+  },
+  "homepage": "https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio#readme",
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  }
+}
