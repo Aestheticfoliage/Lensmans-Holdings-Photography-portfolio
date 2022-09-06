@@ -19,14 +19,22 @@ nav{
   font-size: x-large;
   border-color: var(--blue);
 }
-#header{
-  background-color: var(--light);
-}
-.container{
+
+ #container{
   display: grid;
   background-image: "assets/images/Beautiful-day-to-have-a-job.JPG";
   text-justify: newspaper;
 
+}
+.contact{
+  border: red;
+}
+button{
+  border: red;
+
+}
+button::after{
+  color: #283618;
 }
 .card-body{
   background-color: #FEFAE0;
