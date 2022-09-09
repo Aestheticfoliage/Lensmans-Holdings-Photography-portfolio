@@ -20,9 +20,12 @@ nav{
   border-color: var(--blue);
 }
 
- #container{
-  display: grid;
-  background-image: "assets/images/Beautiful-day-to-have-a-job.JPG";
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+
   text-justify: newspaper;
 
 }
