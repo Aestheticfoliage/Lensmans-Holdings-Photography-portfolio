@@ -14,15 +14,23 @@ nav{
   background-color: var(--light);
 
 }
-#banner {
-
-  font-size: x-large;
-  border-color: var(--blue);
+#links{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
 }
+.hero{
+  display: flex;
+  align-items: stretch;
 
- #container{
-  display: grid;
-  background-image: "assets/images/Beautiful-day-to-have-a-job.JPG";
+}
+ .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+
   text-justify: newspaper;
 
 }
