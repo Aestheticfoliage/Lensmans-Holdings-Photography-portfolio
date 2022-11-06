@@ -5,21 +5,16 @@
   --light: #FEFAE0;
   --dark: #283618;
 }
-* {
-  background-color: var(--light);
-}
 body {
   background-color: #606C38;
 
 }
-.hero{
-  align-items: stretch;
-}
-header {
-  justify-content: space-evenly;
+#banner {
+
   font-size: x-large;
   border-color: var(--blue);
 }
+<<<<<<< HEAD
 #container{
   width: max-content;
   display: flex;
@@ -55,5 +50,22 @@ header {
   #box {
     flex-direction: column;
   
+=======
+.container{
+  display: grid;
+  background-image: "assets/images/Beautiful-day-to-have-a-job.JPG";
+  text-justify: newspaper;
+
+}
+.card-body{
+  background-color: #FEFAE0;
+color: #606C38;
+font-style: italic;
+margin: 20px;
+
+}
+
+
+>>>>>>> 4afcb427247843b83d704e35af7a863eedd29f58
 
   }
