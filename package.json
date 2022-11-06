@@ -1,0 +1,23 @@
+{
+  "name": "lensmans-holdings-photography-portfolio",
+  "version": "1.0.0",
+  "description": "Creating the ability to share skills and media in a digital environment\r ## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio/issues"
+  },
+  "homepage": "https://github.com/Aestheticfoliage/Lensmans-Holdings-Photography-portfolio#readme",
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  }
+}

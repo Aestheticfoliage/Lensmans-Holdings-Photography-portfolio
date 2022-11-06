@@ -9,11 +9,12 @@ body {
   background-color: #606C38;
 
 }
-#banner {
+nav{
+  width: min-content;
+  background-color: var(--light);
 
-  font-size: x-large;
-  border-color: var(--blue);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 #container{
   width: max-content;
@@ -54,8 +55,37 @@ body {
 .container{
   display: grid;
   background-image: "assets/images/Beautiful-day-to-have-a-job.JPG";
+=======
+#links{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+.hero{
+  display: flex;
+  align-items: stretch;
+
+}
+ .container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+
+>>>>>>> 73d1ff8b6fad993d408bdc17c61fcdf0675dd5f1
   text-justify: newspaper;
 
+}
+.contact{
+  border: red;
+}
+button{
+  border: red;
+
+}
+button::after{
+  color: #283618;
 }
 .card-body{
   background-color: #FEFAE0;
